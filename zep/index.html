@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ZEP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,700,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header ">
+    <div class="row d-flex justify-content-between">
+      <div class="col-4 d-flex p-2 out">
+        <a href="#" class=" logo d-block ml-5" style="height: 48px; width: 49px;"><span id="white">S</span><span id="black">J</span></a>
+        <nav class="d-flex align-items-center ml-5">
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">Dashboard</li>
+            <li class="nav-item">Jobs</li>
+            <li class="nav-item">Massages</li>
+
+          </ul>
+
+
+
+
+        </nav>
+      </div>
+      <div class="col-5 align-items-center out d-flex pr-0 ">
+           <div class="form-group search-form d-flex">
+            <input type="search" placeholder="Search..." class=" header-input ">
+            <input type="submit" value="" class="search-btn"> 
+           </div>
+        
+        <button type="button" class="btn btn-primary header-button">Add Job</button>
+
+        <div class="icon-block d-flex align-items-center" style="width: 150px">
+          <img src="./img/Face-Desktop1.png" alt="" style="height: 40px; width: 40px;">
+          <p class="icon-text mb-0" style="width: 70px; height: 40px;">Patrik Kardashyan</p>
+          
+            <ul class="icon-block-list">
+              <li class="icon-block-item"><a href="#" class="icon-block-link">Profile Setings</a></li>
+              <li class="icon-block-item"><a href="#" class="icon-block-link">Paid Plan: Free</a></li>
+              <li class="icon-block-item"><a href="#" class="icon-block-link">Sub: List</a></li>
+              <li class="icon-block-item"><a href="#" class="icon-block-link">Profile Setings</a></li>
+              <li class="icon-block-item"><a href="#" class="icon-block-link last-item">Exit Profile</a></li>
+            </ul>
+          
+         
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container m-auto" style="width: 924px">
+      <form method="POST">
+        <div class="row ">
+          <div class="col-lg-12 ">
+            <h2 class="section-name descr-name">Add Jobs</h2>
+          </div>
+          <div class="col-lg-12">
+            <p class="section-title">General Information</p>
+          </div>
+        </div>
+        <div class="col-lg-6 pl-0">
+        <div class="form-group ">
+          
+            <label for="FormControlInput1">Company name</label>
+            <input type="text" class="form-control" id="FormControlInput1">
+
+          </div>
+        </div>
+        <div class="form-group d-flex">
+          <div class="col-lg-2 pl-0">
+            <div class="change">
+              <label class="change-title">Logo</label>
+              <p class="change-text">Change</p>
+            </div>
+
+          </div>
+          <div class="col-lg-2 offset-lg-2">
+            <div class="optimal">
+              <label for="FormControlInput1">Video(Optimal)</label>
+              <p class="optimal-text">Upload</p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-lg-6">
+            <div class="form-grop">
+              <label for="FormControlSelect1">Country</label>
+              <select class="form-control color-text" id="FormControlSelect1">
+                <option>Ukraine</option>
+                <option>Germany</option>
+                <option>Spain</option>
+                <option>USA</option>
+                <option>France</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-grop">
+              <label for="FormControlSelect2">Province</label>
+              <select class="form-control color-text" id="FormControlSelect2">
+                <option>Burgund</option>
+                <option>Cantalon</option>
+                <option>Provance</option>
+
+              </select>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4">
+            <div class="form-grop">
+              <label for="FormControlInput2">Adress</label>
+              <input class="form-control color-plh" type="text" id="FormControlInput2" placeholder="Berlin,Germany" name="adress">
+
+
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4">
+            <div class="form-grop">
+              <label for="FormControlInput3">Post Code</label>
+              <input class="form-control color-plh" type="text" id="FormControlInput3" placeholder="123456">
+
+
+            </div>
+          </div>
+        </div>
+
+        <!--Section-Dascription-->
+        <div class="row job-desr d-flex ">
+          <div class="col-lg-12">
+            <h2 class="section-name dscr-name">Job Description</h2>
+          </div>
+
+          <div class="col-lg-6 mt-3">
+            <div class="form-grop">
+              <label for="FormDescrSelect1">Job Industry</label>
+              <select class="form-control color-text" id="FormDescrSelect1">
+                <option>FrontEnd Dev</option>
+                <option>BackEnd Dev</option>
+                <option>PHP Dev</option>
+                <option>PHP Dev</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-lg-6"></div>
+          <div class="col-lg-6 mt-3">
+            <div class="form-grop">
+              <label for="FormDescrInput1">Job Title</label>
+              <input class="form-control" type="text" id="FormDescrInput1">
+            </div>
+          </div>
+          <div class="col-lg-12 mt-3">
+            <label for="">Skills</label>
+          </div>
+
+          <div class="col-lg-auto mt-1 skills-form d-flex align-items-center" id="SkillsForm">
+            <ul class="skills-form-list d-flex ">
+              <li class="skills-form-item d-flex align-items-center"><a href="#" class="skills-form-link">Marketting</a>
+                <button type="button" class="close" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button></li>
+              <li class="skills-form-item d-flex align-items-center"><a href="#" class="skills-form-link">Sails</a>
+                <button type="button" class="close" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </li>
+              <li class="skills-form-item d-flex align-items-center"><a href="#" class="skills-form-link">Puncktuality</a>
+                <button type="button" class="close" aria-label="Close">
+                  <span aria-hidden="true" class="close-btn">&times;</span>
+                </button>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-12">
+            <label for="">Enter tag name and press “Enter”</label>
+          </div>
+          <div class="col-lg-6 mt-3 form-exper">
+            <div class="form-grop">
+              <label for="FormDescrSelect1">Experience</label>
+              <select class="custom-select color-text" id="FormDescrSelect1">
+                <option selected>Years</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-6"></div>
+
+          <div class="col-lg-6 mt-3 form-exper">
+            <div class="form-grop">
+              <label for="FormDescrSelect2">Employment</label>
+              <select class="form-control color-text" id="FormDescrSelect2">
+                <option>Select</option>
+                <option>3-5 yaers</option>
+                <option>more than 5 yaers</option>
+
+              </select>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-3 ">
+            <label>Durability</label>
+            <div class="form-check-parent d-flex">
+
+              <div class="form-check mr-5">
+                <input class="form-check-input" type="radio" name="radios" id="radios1" value="option1" checked>
+                <label class="form-check-label" for="radios1">
+                  Permanent
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radios" id="radios2" value="option2">
+                <label class="form-check-label" for="radios2">
+                  Temporary
+                </label>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="form-grop">
+              <label for="date">Start Date</label>
+              <input class="form-control color-plh" type="text" id="date" name="date" placeholder="06.01.2019">
+            </div>
+          </div>
+
+            <div class="col-6 mt-4" >
+              <label for="">Salary</label>
+              <div class="row">
+                  <div class="col-lg-6">
+                      
+                      <div class="form-grop">
+                        
+                        <input class="form-control salary" type="text" id="salary" placeholder="1000 C$">
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-grop">
+                          
+                          <input class="form-control salary" type="text" id="salary2" placeholder="1500 c$">
+                        </div>
+                      </div>
+              </div>
+            </div>
+         
+            <div class="col-lg-6 mt-4" >
+              <label for="">Work Location</label>
+              <div class="group-form">
+                <input type="text" class="form-control work-location">
+                <input type="checkbox" name="location" id="location" checked>
+                <label for="location" class="mt-2 work-location-lable">Same as business location</label>
+              </div>
+            </div>
+
+            <div class="col-lg-12 mt-3">
+                <label for="LanguagesForm">Languages</label>
+              </div>
+    
+              <div class="col-lg-auto mt-1 languges-form d-flex align-items-center" id="LanguagesForm">
+                <ul class="languges-form-list d-flex ">
+                  <li class="languges-form-item d-flex align-items-center"><a href="#" class="languges-form-link">English</a>
+                    <button type="button" class="close" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button></li>
+                  <li class="languges-form-item d-flex align-items-center"><a href="#" class="languges-form-link">French</a>
+                    <button type="button" class="close" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </li>
+                  <li class="languges-form-item d-flex align-items-center"><a href="#" class="languges-form-link">Ukrainian</a>
+                    <button type="button" class="close" aria-label="Close">
+                      <span aria-hidden="true" class="close-btn">&times;</span>
+                    </button>
+                  </li>
+                </ul>
+    
+              </div>
+              <div class="col-lg-12 mt-2">
+                  <label for="" class="">Enter tag name and press “Enter”</label>
+              </div>
+              
+
+              <div class="col-lg-6 mt-3 form-exper">
+                  <div class="form-grop">
+                    <label for="FormDescrSelect2">Education</label>
+                    <select class="form-control color-text" id="FormDescrSelect2">
+                      <option selected>Select</option>
+                      <option>3-5 yaers</option>
+                      <option>more than 5 yaers</option>
+      
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-6"></div>
+
+                <div class="col-lg-6 mt-3">
+                    <div class="form-group">
+                        <label for="job-descr">Job Description</label>
+                        <textarea class="form-control form-job-descr" id="job-descr" rows="3"></textarea>
+                      </div>
+                </div>
+
+                <div class="col-lg-6"></div>
+ 
+                <div class="col-lg-6 mt-3">
+                    <div class="form-group">
+                        <label for="company-descr">About Company</label>
+                        <textarea class="form-control form-company-descr" id="company-descr" rows="3"></textarea>
+                      </div>
+                </div>
+
+                <div class="col-lg-12 mt-3">
+                  <a href="#" class="preview">Preview </a>
+                </div>
+
+                <div class="col-lg-12 mt-3">
+                  <div class="form-group d-flex">
+                    <a href="#" class="footer-btn " id="first-btn">Post Job</a>
+                    <a href="#" class="footer-btn">Cancel</a>
+                  </div>
+                </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    </form>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
