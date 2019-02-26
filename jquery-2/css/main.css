@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b2b2b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    
+    font-family: "Arial";
+    height: 2500px;
+}
+.slider{
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.img{
+    text-align: center;
+    line-height: 300px;
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.img.curry{
+    display: block;
+}
+.img:first-child{
+    background-image: url(../img/20160924_151235.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.img:nth-child(2){
+    background-image: url(../img/20160924_155345.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.img:nth-child(3){
+    background-image: url(../img/Desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.img:nth-child(4){
+    background-image: url(../img/map.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.img:nth-child(5){
+    background-image: url(../img/marcus-dall-col-1321486-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+.n{
+    color: #575757;
+}
+a{
+    text-decoration: none;
+    color: #fd7ead;
+    font-size: 20px;
+}
+a:hover{
+    color: #0ab6dd;
+}
+.prev{
+    position: relative;
+    top: 240px;
+    left: 300px;
+}
+.next{
+    position: relative;
+    top: 240px;
+    right: 300px;
+}
+
+
+
+
+
