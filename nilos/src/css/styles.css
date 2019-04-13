@@ -1,0 +1,14 @@
+body {
+  border: 1px solid black; }
+
+.link {
+  display: inline-block;
+  color: green;
+  width: 200px; }
+  .link:hover {
+    color: red; }
+
+.link {
+  font-size: 27px;
+  border: 1px;
+  border-color: black; }

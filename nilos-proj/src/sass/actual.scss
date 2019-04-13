@@ -1,0 +1,129 @@
+.actual .wrapper{
+    height: 857px;
+}
+.actual-text-wrapp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+    h2{
+        font-family: $exo-font;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.28;
+        letter-spacing: 0.5px;
+        color: $link-color;
+      }
+    p{
+        
+        font-family: $roboto-font;
+        font-size: 18px;
+        line-height: 2.22;
+        letter-spacing: 0.2px;
+        color: $link-color;
+        align-self: center;
+      }
+    }
+
+.actual-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+    li{
+        position: relative;
+        width: 360px;
+        height: 412px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../images/photo-info-2.jpg);
+        box-sizing: border-box;
+        padding-left: 29px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+}
+
+.actual-list-item{
+    
+    h3{
+        width: 300px;
+        height: 100px;
+        font-family: $exo-font;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1.14;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+        
+        margin-top: 238px;
+       }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        height: 69px;
+        border-top: 1px solid rgba(255, 255, 255, 0.75);
+    }
+}
+.actual-item-text{
+  display: none;
+  width: 302px;
+  height: 134px;
+  font-family: $roboto-font;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.2px;
+  color: #08200e;
+}
+.actual-item-date{
+    display: inline-block;
+    width: 172px;
+    height: 43px;
+    font-family: $roboto-font;
+    font-size: 16px;
+    line-height: 2.5;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    
+    
+}
+
+svg path {
+    fill: #ffffff;
+    stroke:inherit;
+    stroke-width:inherit;
+    
+    }
+.actual-list-item:hover{
+    background-image: none;
+    box-shadow: 0 4px 28px 0 rgba(196, 196, 196, 0.5);
+    background-color: #fafafa;
+    h3{
+        color: $link-color;
+        margin-top: 52px;
+    }
+    p{
+        display: block;
+        margin-top: 14px;
+    }
+    div{
+        border-color: rgba(196, 196, 196, 0.5);
+        margin-top: 38px;
+
+    }
+    span{
+        color: $link-color;
+    }
+    svg path{
+        fill: $link-color;
+    }
+}
+.actual-btn{
+    margin-top: 56px;
+}
+
+
+
+

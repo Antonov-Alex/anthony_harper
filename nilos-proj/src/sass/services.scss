@@ -1,0 +1,75 @@
+.services{
+    height: 518px;
+    background-image: url(../images/bg.jpg);
+    
+}
+.services-title{
+    width: 305px;
+    height: 50px;
+    font-family: $exo-font;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.89;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    margin-top: 64px;
+}
+.services-content{
+    display: flex;
+    width: 960px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 43px;
+    margin-left: 100px;
+    margin-right: 100px;
+ul{
+    width: 50%;
+    
+    }
+li{ 
+        
+        height: 66px;
+        width: 400px;
+        
+        margin-left: 43px;
+        border-bottom: 1px solid $hover-color;
+    }
+ a{
+        display: inline-block;
+        line-height: 66px;
+        text-align: center;
+        opacity: 0.9;
+        font-family: $exo-font;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        color: #000000;
+        
+    }
+}
+
+
+.services-list-item:last-child{
+        border-bottom:  transparent;
+    
+}
+.services-list-item:first-child{
+    margin-top: 27px;
+}
+.services-list-link::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background-image: url(../images/arrow-copy.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    
+}
+.services-list-link{
+    transition: all 0.4s ease;
+}
+.services-list-link:hover{
+    color: $hover-color;
+}

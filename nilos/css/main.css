@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    min-height: 1000px;
+    font-family: 'Exo 2','Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 auto;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1070px;
+    margin: 0 auto;
+    overflow: hidden;
+    outline: 1px solid green;
+}
+.container-info-top{
+    display: flex;
+    justify-content: space-between;
+    min-height: 43px;
+    border-bottom: 1px solid gray;
+}
+.info-list{
+    display: flex;
+}
+.info-list-item{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gray;
+    box-sizing: border-box;
+    padding: 0 26px;
+
+}
+.info-list-item:last-child{
+    border-right: none;
+}
+.info-list-link{
+    opacity: 0.8;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #08200e;
+}
+.info-list-link:hover{
+    color: green;
+}
+.adress-link:hover{
+    color: #08200e;
+}
+.socials-list{
+    display: flex;
+    align-items: center;
+    margin-right: 119px;
+}
+.socials-list-icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+
+}
+svg path {
+    fill:inherit;
+    stroke:inherit;
+    stroke-width:inherit;
+    
+    }
+    .fb, .inst{
+        transition: all .8s ease;
+        }
+        
+        .fb:hover, .inst:hover {
+         fill: green;
+        }
+.inst-icon{
+    margin-left: 14px;
+}
+.fb-icon{
+    margin-left: 43px;
+}
+select{
+    outline: none;
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    display: block;
+    width: 220px;
+    height: 122px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    outline: 1px solid red;
+}
+.header-list-link{
+    text-transform: uppercase;
+}
+.fb-icon{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 50px;
+    background-color: green;
+    
+}
+img{
+    display: block;
+    width: 500px;
+    height: 200px;
+}
+
+
+
+
+
+

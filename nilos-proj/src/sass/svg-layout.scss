@@ -1,0 +1,43 @@
+
+/*svg path {
+    fill: inherit;
+    stroke:inherit;
+    stroke-width:inherit;
+    
+    }
+    .fb, .inst{
+        transition: all .8s ease;
+        }
+        
+        .fb:hover, .inst:hover {
+         fill: green;
+        }
+    .fb-icon{
+        margin-right: 13px;
+    }*/
+    .socials-list-icon svg path{
+        fill: black;
+    }
+    .socials-list-icon:hover{
+        svg path{
+            fill: #41b25d;
+        }
+    }
+    .fb-icon{
+        margin-right: 13px;
+    }
+    .footer-icon-fb{
+        margin-right: 13px;
+        
+    }
+    
+    .footer-icon-inst:hover{
+        svg path{
+            fill: #41b25d;
+        }
+    }
+    .footer-icon-fb:hover{
+        svg path{
+            fill: #41b25d;
+        }
+    }

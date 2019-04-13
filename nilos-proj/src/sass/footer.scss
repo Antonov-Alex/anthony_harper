@@ -1,0 +1,102 @@
+.footer-content{
+    height: 160px;
+    background-color: #41b25d;
+    
+    h2{
+        width: 423px;
+        font-family: $exo-font;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.28;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+        margin-top: 32px;
+      }
+      input{
+          border: none;
+          outline: none;
+          height: 64px;
+          width: 470px;
+          color: rgba(255, 255, 255, 0.81);
+          background-color: rgba(255, 255, 255, 0.3);
+          font-family: $roboto-font;
+          font-size: 16px;
+          box-sizing: border-box;
+          padding-left: 15px;
+          margin: 0;
+          
+      }
+      
+   
+    
+}
+input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.81);
+    
+    
+  }
+  
+input:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.81);
+  }
+  
+
+  
+input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.81);
+  }
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-form-btn{
+  display: inline-block;
+  width: 116px;
+  height: 63px;
+  font-family: $roboto-font;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  line-height: 64px;
+  letter-spacing: 0.2px;
+  color: #41b25d;
+  text-align: center;
+  margin-left: -5px;
+}
+.footer-form{
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+.footer-info-container{
+    background-color: #252525;
+    div{
+        display: flex;
+        justify-content: space-between;
+        height: 88px;
+        align-items: center;
+    }
+}
+.footer-info-list{
+    display: flex;
+    li{ 
+        
+        font-family: $roboto-font;
+        font-size: 14px;
+        color: #ffffff;
+        margin-right: 48px;
+    
+    }
+}
+.footer-info-item:last-child{
+   margin-right: 0;
+}
+
+.footer-icon-fb{
+    margin-right: 13px;
+    
+}
+
+
+
+    
+

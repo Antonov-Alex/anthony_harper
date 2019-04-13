@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+   
+}
+.nav-logo{
+    display: block;
+    height: 122px;
+    width: 173px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    outline: 1px solid green;
+    background-position: left;
+
+}
+.nav-list{
+    display: flex;
+
+    & li{
+        margin-right: 57px;
+       }
+    & li:last-child{
+        margin-right: 0;
+    }
+}
+.nav-list-link{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $link-color;
+    &:hover{
+        color: $hover-color;
+    }
+}

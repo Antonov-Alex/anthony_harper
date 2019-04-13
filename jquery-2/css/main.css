@@ -3,93 +3,51 @@
     padding: 0;
 }
 body{
-    background-color: #2b2b2b;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    
-    font-family: "Arial";
-    height: 2500px;
+    min-height: 1000px;
 }
-.slider{
-    width: 500px;
-    height: 300px;
-    margin: 100px auto;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.img{
-    text-align: center;
-    line-height: 300px;
-    position: absolute;
-    font-size: 50px;
-    color: #fff;
-    display: none;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-.img.curry{
+.link-menu{
     display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 20px;
+    top: 20px;
 }
-.img:first-child{
-    background-image: url(../img/20160924_151235.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+ .span, .span::after, .span::before{
+     transition: all 0.5s linear;
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 18px;
+    background-color: black;
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -9px;
 }
-.img:nth-child(2){
-    background-image: url(../img/20160924_155345.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+.span::after{
+    content: '';
+    margin-top: 4px;
 }
-.img:nth-child(3){
-    background-image: url(../img/Desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+.span::before{
+    content: '';
+    margin-top: -6px;
 }
-.img:nth-child(4){
-    background-image: url(../img/map.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+.link-menu_active .span{
+    background-color:  transparent;
 }
-.img:nth-child(5){
-    background-image: url(../img/marcus-dall-col-1321486-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+.link-menu_active .span::after{
+    transform: rotate(135deg);
+    margin-top: 0;
 }
-.n{
-    color: #575757;
+.link-menu_active .span::before{
+    transform: rotate(-135deg);
+    margin-top: 0;
 }
-a{
-    text-decoration: none;
-    color: #fd7ead;
-    font-size: 20px;
-}
-a:hover{
-    color: #0ab6dd;
-}
-.prev{
-    position: relative;
-    top: 240px;
-    left: 300px;
-}
-.next{
-    position: relative;
-    top: 240px;
-    right: 300px;
-}
+
+
 
 
 

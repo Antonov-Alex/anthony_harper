@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "src": "./img/chairs/alfa.jpg",
+            "title": "alfa",
+            "price": "5768"
+        },
+        {
+            "src": "./img/chairs/kelly.jpg",
+            "title": "kelly",
+            "price": "7468"
+        },
+        {
+            "src": "./img/chairs/kuga.jpg",
+            "title": "kuga",
+            "price": "8790"
+        },
+        {
+            "src": "./img/chairs/margot.jpg",
+            "title": "marton",
+            "price": "10772"
+        },
+        {
+            "src": "./img/chairs/mood.jpg",
+            "title": "mood",
+            "price": "8443"
+        },
+        {
+            "src": "./img/chairs/penelope.jpg",
+            "title": "penelope",
+            "price": "17990"
+        },
+        {
+            "src": "./img/chairs/sally.jpg",
+            "title": "sally",
+            "price": "16990"
+        },
+        {
+            "src": "./img/chairs/suri.jpg",
+            "title": "suri",
+            "price": "17990"
+        },
+        {
+            "src": "./img/chairs/sveva.jpg",
+            "title": "sveva",
+            "price": "17990"
+        }
+    ]
+}
